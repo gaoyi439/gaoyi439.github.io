@@ -1,11 +1,56 @@
 
 
-<meta name="description" content="Wei Wang's homepage">
+<meta name="description" content="Yi Gao's homepage">
 <link rel="stylesheet" href="./files/jemdoc.css" type="text/css">
-<title>Wei Wang's Homepage</title>
+<title>Yi Gao's Homepage</title>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yi Gao's Homepage</title>
+    <link rel="stylesheet" href="./files/jemdoc.css" type="text/css">
+    <style>
+        nav {
+            background-color: #f8f9fa;
+            padding: 10px 0;
+            margin-bottom: 20px;
+        }
+        nav a {
+            margin-right: 20px;
+            text-decoration: none;
+            color: #527bbd;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        h1, h2, h3 {
+            margin-top: 50px; /* Add space for fixed nav bar */
+        }
+        .academic-profile {
+            border: 0px;
+            padding: 10px;
+            margin-top: 20px;
+        }
+        a.academic-link {
+            color: #527bbd;
+            text-decoration: none;
+        }
+        a.academic-link:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
 
 
 <body>
+
+    <nav>
+        <a href="#about">01_ABOUT</a>
+        <a href="#publications">02_PUBLICATIONS</a>
+        <a href="#awards">03_AWARDS</a>
+        <a href="#academic-services">04_ACADEMIC SERVICES</a>
+        <a href="#talks">05_TALKS</a>
+    </nav>
 
 <div id="layout-content" style="margin-top:25px">
 
@@ -14,38 +59,40 @@
 		<tr>
 			<td width="670">
 				<div id="toptitle">					
-					<h1>Wei Wang (王 維)&nbsp;
+					<h1>Yi Gao (高 奕)&nbsp;
                         </div>
 
-				<h3>Ph.D. Student</h3>  
+				<h3>Assistant researcher (至善博后)</h3>  
 				<p>
-					<a href="http://www.ms.k.u-tokyo.ac.jp/index.html" target=&ldquo;blank&rdquo;>Sugiyama Lab</a> <br>
-					<a href="http://www.k.u-tokyo.ac.jp/complex/index_e.html" target=&ldquo;blank&rdquo;>Department of Complexity Science and Engineering</a><br>
-					<a href="https://www.k.u-tokyo.ac.jp/en/index.html" target=&ldquo;blank&rdquo;>Graduate School of Frontier Sciences</a> <br>
-                    <a href="http://www.u-tokyo.ac.jp/en/" target=&ldquo;blank&rdquo;>The University of Tokyo</a> <br>
-					Chiba 277-8561, Japan<br>
+					<a href="https://palm.seu.edu.cn/members.html" target=&ldquo;blank&rdquo;>
+                        PAttern Learning and Mining (PALM) Lab</a> <br>
+					<a href="https://cse.seu.edu.cn" target=&ldquo;blank&rdquo;>School of Computer Science and Engineering</a><br>
+                    <a href="https://www.seu.edu.cn/" target=&ldquo;blank&rdquo;>Southeast University</a>, China<br>
 					<br>
-Email:  wwangwitsel [at] gmail.com <i>OR</i> wangw [at] g.ecc.u-tokyo.ac.jp<br>
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<i>OR</i> wei.wang [at] riken.jp
-<br>
+Email:  gao_yi [at] seu.edu.cn <i>OR</i> gaoyi-1 [at] foxmail.com<br>
+
+<div class="academic-profile">
+    <strong>[Academic Profile]:</strong>
+    <a href="https://scholar.google.com.hk/citations?hl=zh-CN&pli=1&user=tXek3tAAAAAJ" class="academic-link" target="blank">Google Scholar</a> &nbsp;&nbsp;&nbsp;
+    <a href="https://dblp.uni-trier.de/pid/38/4304-3.html" class="academic-link" target="blank">DBLP</a>
+</div>
+
 
 				</p>
 			</td>
 			<td>
-				<img src="./files/photo.jpg" border="0" width="360">
+				<img src="./files/photo.jpg" border="0" width="280">
 			</td>
 		</tr><tr>
 	</tr></tbody>
 </table>
-<h2>Biography</h2>
+<h2 id="about">Biography</h2>
     <p>
-	I am a final-year Ph.D. student at <a href="http://www.u-tokyo.ac.jp/en/" target=&ldquo;blank&rdquo;>the University of Tokyo</a>, supervised by Prof. <a href="http://www.ms.k.u-tokyo.ac.jp/sugi/index.html" target=&ldquo;blank&rdquo;>Masashi Sugiyama</a>. I am also a Junior Research Associate at the <a href="https://aip.riken.jp/labs/generic_tech/imperfect_inf_learn" target=&ldquo;blank&rdquo;>Imperfect Information Learning Team</a>, <a href="https://www.riken.jp/en" target=&ldquo;blank&rdquo;>RIKEN</a> <a href="https://aip.riken.jp" target=&ldquo;blank&rdquo;>Center for Advanced Intelligence Project</a>. I received a M.Eng. degree from <a href="https://www.seu.edu.cn/" target=&ldquo;blank&rdquo;>Southeast University</a> under the supervision of Prof. <a href="http://palm.seu.edu.cn/zhangml" target=&ldquo;blank&rdquo;>Min-Ling Zhang</a>. I received a B.Eng. degree from <a href="https://www.hust.edu.cn/" target=&ldquo;blank&rdquo;>Huazhong University of Science and Technology</a>. I worked as a machine learning engineer intern at <a href="https://www.alibabagroup.com/en-US/" target=&ldquo;blank&rdquo;>Alibaba Group</a> and <a href="https://www.didiglobal.com/" target=&ldquo;blank&rdquo;>DiDi</a>.
-    </p>
-
-    <p>My research interests are in theories and algorithms of machine learning. Specifically, I am mainly interested in reliable machine learning, data-centric machine learning, and applications in foundation models. Recently, I am also interested in theoretical understanding of deep learning.
-    </p>      
-
-    <p>Feel free to email me if you are interested in talking with me.</p>
+	My research interests mainly include machine learning and weakly supervised learning. 
+    Currently, I am an assistant researcher (至善博后) at the <a href="https://palm.seu.edu.cn/members.html" target=&ldquo;blank&rdquo;> PALM Group </a>, 
+    <a href="https://cse.seu.edu.cn" target=&ldquo;blank&rdquo;>School of Computer Science and Engineering</a>, 
+    <a href="https://www.seu.edu.cn/" target=&ldquo;blank&rdquo;>Southeast University</a>, China. I received the Ph.D. degree from Southeast University, China in 2025, 
+    advised by <a href="https://palm.seu.edu.cn/zhangml/" target=&ldquo;blank&rdquo;>Prof. Min-Ling Zhang</a> and the B.Sc., M.Sc. degrees from Northwest University, China, in 2017 and 2020 respectively.
 
 <!--h2>Preprint</h2>
 <ul>
@@ -55,90 +102,67 @@ Email:  wwangwitsel [at] gmail.com <i>OR</i> wangw [at] g.ecc.u-tokyo.ac.jp<br>
     </li>
 </ul>
 -->
-<h2>Publication</h2>
+<h2 id="publications">Publication (*Corresponding author)</h2>
 <ul>
-    <li>Realistic Evaluation of Deep Partial-Label Learning Algorithms.<br>
-        <u>W. Wang</u>, D.-D. Wu, J. Wang, G. Niu, M.-L. Zhang, and M. Sugiyama.<br>
-        In: <em>Proceedings of the 13th International Conference on Learning Representations <strong>(ICLR 2025)</strong></em>, Singapore, 2025.<br>
-        [<a href="./papers/wang_iclr25.pdf" target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/wwangwitsel/PLENCH" target=&ldquo;blank&rdquo;>Code</a>]
-        [<a href="https://github.com/wwangwitsel/PLCIFAR10" target=&ldquo;blank&rdquo;>Data</a>]
-        [<font color="#ff00ff">Spotlight</font>]
+    <li><u>Y. Gao</u>, M. Xu, M.-L. Zhang. <a href="./papers/gao_tpami2024.pdf" target=&ldquo;blank&rdquo;>Complementary to multiple labels: A correlation-aware correction approach</a>. 
+        <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>, 2024, 46(12): 9179-9191. 
+        [<a href="https://github.com/gaoyi439/MLCL" target=&ldquo;blank&rdquo;>Code</a>]
+        <!-- [<font color="#ff00ff">Spotlight</font>] -->
     </li>
-    <li>Learning with Complementary Labels Revisited: The Selected-Completely-at-Random Setting Is More Practical.<br>
-        <u>W. Wang</u>, T. Ishida, Y.-J. Zhang, G. Niu, and M. Sugiyama.<br>
-        In: <em>Proceedings of the 41st International Conference on Machine Learning <strong>(ICML 2024)</strong></em>, pp. 50683-50710, Vienna, Austria, 2024.<br>
-        [<a href="./papers/wang_icml24.pdf"  target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/wwangwitsel/SCARCE" target=&ldquo;blank&rdquo;>Code</a>] 
+    <li>Y. Tang (协助导师指导的本科生), <u>Y. Gao*</u>, Y.-G. Luo, J.-C. Yang, M. Xu, M.-L. Zhang. 
+        <a href="./papers/gao_tpami2024.pdf" target=&ldquo;blank&rdquo;>Unlearning from weakly supervised learning</a>. 
+        In： <strong>Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI’24)</strong>, Jeju, South Korea, 2024, 5000-5008.
+        [<a href="https://github.com/gaoyi439/udru" target=&ldquo;blank&rdquo;>Code</a>]
     </li>
-    <li>Binary Classification with Confidence Difference.<br>
-        <u>W. Wang</u>, L. Feng, Y. Jiang, G. Niu, M.-L. Zhang, and M. Sugiyama.<br>       
-        In: <em>Advances in Neural Information Processing Systems 36 <strong>(NeurIPS 2023)</strong></em>, pp. 5936-5960, New Orleans, LA, 2023. <br>
-        [<a href="./papers/wang_neurips23.pdf" target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/wwangwitsel/ConfDiff" target=&ldquo;blank&rdquo;>Code</a>]    
+    <li><u>Y. Gao</u>, M. Xu, M.-L. Zhang. <a href="./papers/gao_ijcai2023.pdf" target=&ldquo;blank&rdquo;>Unbiased risk estimator to multi-labeled complementary label learning</a>. 
+        In: <strong>Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI’23)</strong>, Macau, China, 2023, 3732-3740.
+        [<a href="https://github.com/gaoyi439/GDF" target=&ldquo;blank&rdquo;>Code</a>]
     </li>
-    <li>Label Specific Multi-Semantics Metric Learning for Multi-Label Classification: Global Consideration Helps.<br> 
-        J.-X. Mao, <u>W. Wang</u>, and M.-L. Zhang.<br>      
-        In: <em>Proceedings of the 32nd International Joint Conference on Artificial Intelligence <strong>(IJCAI 2023)</strong></em>, pp. 4055-4063, Macau, China, 2023. <br>
-        [<a href="./papers/mao_ijcai23.pdf" target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/Mao158/LIMIC" target=&ldquo;blank&rdquo;>Code</a>]    
-    </li>
-    <li>Partial Label Learning with Discrimination Augmentation.<br>
-        <u>W. Wang</u>, and M.-L. Zhang.<br>       
-        In: <em>Proceedings of the 28th ACM SIGKDD Conference on Knowledge Discovery and Data Mining <strong>(KDD 2022)</strong></em>, pp. 1920-1928, Washington, DC, 2022. <br>
-        [<a href="./papers/wang_kdd22.pdf" target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/wwangwitsel/PLDA" target=&ldquo;blank&rdquo;>Code</a>]    
-    </li>   
-    <li>Semi-Supervised Partial Label Learning via Confidence-Rated Margin Maximization.<br>
-        <u>W. Wang</u>, and M.-L. Zhang.<br>               
-        In: <em>Advances in Neural Information Processing Systems 33 <strong>(NeurIPS 2020)</strong></em>, pp. 6982-6993, Online, 2020. <br>
-        [<a href="./papers/wang_neurips20.pdf" target=&ldquo;blank&rdquo;>PDF</a>]
-        [<a href="https://github.com/wwangwitsel/PARM" target=&ldquo;blank&rdquo;>Code</a>]    
-    </li>		
+    <li><u>Y. Gao</u>, M.-L. Zhang. <a href="./papers/gao_icml2021.pdf" target=&ldquo;blank&rdquo;>Discriminative complementary-label learning with weighted loss</a>. 
+        In：<strong>Proceedings of the 38th International Conference on Machine Learning (ICML’21)</strong>, Virtual Conference, 2021, 3587-3597.
+        [<a href="https://github.com/gaoyi439/complementary-label-learning" target=&ldquo;blank&rdquo;>Code</a>]
+    </li>	
+    <li>X. Sun, <u>Y. Gao</u>, R. Sutcliffe, S.-X. Guo, X. Wang, J. Feng. 
+        <a href="./papers/gao_tsmc2021.pdf" target=&ldquo;blank&rdquo;>Word representation learning based on bidirectional GRUs with drop loss for sentiment classification</a>. 
+        <strong>IEEE Transactions on Systems, Man, and Cybernetics: Systems</strong>, 2021, 51(7): 4532-4542.
+    </li>	
+    <li><u>Y. Gao</u>, X. Sun, X. Wang, J. Feng, S.-X. Guo. 
+        <a href="./papers/gao_Journal of Intelligent & Fuzzy Systems_2020.pdf" target=&ldquo;blank&rdquo;>A parallel neural network structure for sentiment classification of MOOCs discussion forums</a>. 
+        <strong>Journal of Intelligent & Fuzzy Systems</strong>, vol. 38, no. 4, pp. 4915-4927, 2020.
+    </li>	
 </ul>
 
 
-<h2>Award</h2>
+<h2 id="awards">Awards</h2>
 <ul>
     <li>
-        <a href="https://aip.riken.jp/news/fy2023_riken_ohbu_award/" target=&ldquo;blank&rdquo;>RIKEN Ohbu Award</a> (Researcher Incentive Award), 2024.
-    </li>
-    <li>
-        Scholar/Travel Award, NeurIPS 2023.
-    </li>
-    <li>
-        Microsoft Research Asia D-CORE Award, 2023.
-    </li> 
-    <li>
-        Japanese Government (MEXT) Scholarship, 2023.
-    </li>   
-    <li>
-        National Scholarship, MOE of PRC, 2021.
+        Research scholarship at the University of Genova, Italy, 2025.
     </li>
 </ul>
 
-<h2>Talk</h2>
+<h2 id="academic-services">Academic Service</h2>
 <ul>
     <li>
-         On the Relation between Complementary-Label Learning and Negative-Unlabeled Learning.<br>
-         2023.11.24, <a href="https://wsl-workshop.github.io/wsl23.html" target=&ldquo;blank&rdquo;>International Workshop on Weakly Supervised Learning 2023</a>.
-    </li>
-</ul>
-
-<h2>Academic Service</h2>
-<ul>
-    <li>
-        PC Member/Conference Reviewer: NeurIPS (2023,2024,2025), ICML (2024,2025), ICLR (2024,2025), AISTATS (2025), KDD (2023,2024,2025), SDM (2024), ACML (2024,2025), AAAI (2025).
+        PC Member: IJCAI (2025), AJCAI (2023).
     </li>
     <li>
-        Journal Reviewer: IEEE Transactions on Pattern Analysis and Machine Intelligence, Journal of Artificial Intelligence Research, International Journal of Computer Vision, Neural Networks, SCIENCE CHINA Information Sciences, ACM Transactions on Intelligent Systems and Technology.
+        Reviewer: ICML (2025), ICLR (2025), IJCAI (2024), NeurIPS (2024), Neural Networks, Machine Intelligence Research.
+    </li>
+    <li>
+        Volunteer of the 13th Jiangsu Provincial Computer Conference, 2024.
     </li>
     <li>
         <a href="https://kdd.org/kdd2021/organizers.html" target=&ldquo;blank&rdquo;>Web Team Member</a> of KDD 2021.
     </li>
 </ul>
 	
-
+<h2 id="talks">Invited Talk</h2>
+<ul>
+    <li>
+        <u>The 2024 Academic Conference on Artificial Intelligence of Jiangsu Province</u>, Nov. 2024, Suqian, China. 
+        <strong>Title: “Complementary to Multiple Labels: A Correlation-Aware Correction Approach”</strong>.
+    </li>
+</ul>
 
 
 <div id="footer">
