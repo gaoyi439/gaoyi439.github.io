@@ -102,49 +102,21 @@ Email:  gao_yi [at] seu.edu.cn <i>OR</i> gaoyi-1 [at] foxmail.com<br>
     </li>
 </ul>
 -->
-<h2 id="publications">Publication (*Corresponding author)</h2>
-<ul>
-	<li><u>Y. Gao</u>, Y.-Y. Meng (协助导师指导的研究生), M. Xu, M.-L. Zhang. <a href="./papers/gao_TPAMI2025_NMCB.pdf" target=&ldquo;blank&rdquo;>Data augmentation with consistency regularization for multi-labeled complementary label learning</a>. 
-		<strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>, <i>in press</i>. [<a href="https://github.com/gaoyi439/NMCB" target=&ldquo;blank&rdquo;>Code</a>]
-    </li>
-	<li>J.-Y. Zhu (协助导师指导的研究生), <u>Y. Gao*</u>,  M. Xu, M.-L. Zhang. <a href="./papers/zhu&gao_nips2025_comrank.pdf" target=&ldquo;blank&rdquo;>ComRank: Ranking loss for multi-label complementary label learning</a>. 
-        In: <strong>Advances in Neural Information Processing Systems 39 (NeurIPS’25)</strong>, <i>in press</i>. 
-        [<a href="https://github.com/JellyJamZhu/ComRank" target=&ldquo;blank&rdquo;>Code</a>] 
-    </li>
-    <li><u>Y. Gao</u>, J.-Y. Zhu (协助导师指导的研究生), M. Xu, M.-L. Zhang. <a href="./papers/TPAMI2025_Multi-Label Learning with Multiple Complementary labels.pdf" target=&ldquo;blank&rdquo;>Multi-label learning with multiple complementary labels</a>. 
-        <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>, 2025, 47(9): 8013-8024. 
-        [<a href="https://github.com/gaoyi439/CTL" target=&ldquo;blank&rdquo;>Code</a>]
-        <!-- [<font color="#ff00ff">Spotlight</font>] -->
-    </li>
-    <li><u>Y. Gao</u>, M. Xu, M.-L. Zhang. <a href="./papers/gao_tpami2024.pdf" target=&ldquo;blank&rdquo;>Complementary to multiple labels: A correlation-aware correction approach</a>. 
-        <strong>IEEE Transactions on Pattern Analysis and Machine Intelligence</strong>, 2024, 46(12): 9179-9191. 
-        [<a href="https://github.com/gaoyi439/MLCL" target=&ldquo;blank&rdquo;>Code</a>]
-        <!-- [<font color="#ff00ff">Spotlight</font>] -->
-    </li>
-    <li>Y. Tang (协助导师指导的本科生), <u>Y. Gao*</u>, Y.-G. Luo, J.-C. Yang, M. Xu, M.-L. Zhang. 
-        <a href="./papers/gao_tpami2024.pdf" target=&ldquo;blank&rdquo;>Unlearning from weakly supervised learning</a>. 
-        In： <strong>Proceedings of the 33rd International Joint Conference on Artificial Intelligence (IJCAI’24)</strong>, Jeju, South Korea, 2024, 5000-5008.
-        [<a href="https://github.com/gaoyi439/udru" target=&ldquo;blank&rdquo;>Code</a>]
-    </li>
-    <li><u>Y. Gao</u>, M. Xu, M.-L. Zhang. <a href="./papers/gao_ijcai2023.pdf" target=&ldquo;blank&rdquo;>Unbiased risk estimator to multi-labeled complementary label learning</a>. 
-        In: <strong>Proceedings of the 32nd International Joint Conference on Artificial Intelligence (IJCAI’23)</strong>, Macau, China, 2023, 3732-3740.
-        [<a href="https://github.com/gaoyi439/GDF" target=&ldquo;blank&rdquo;>Code</a>]
-    </li>
-    <li><u>Y. Gao</u>, M.-L. Zhang. <a href="./papers/gao_icml2021.pdf" target=&ldquo;blank&rdquo;>Discriminative complementary-label learning with weighted loss</a>. 
-        In：<strong>Proceedings of the 38th International Conference on Machine Learning (ICML’21)</strong>, Virtual Conference, 2021, 3587-3597.
-        [<a href="https://github.com/gaoyi439/complementary-label-learning" target=&ldquo;blank&rdquo;>Code</a>]
-    </li>	
-    <li>X. Sun, <u>Y. Gao</u>, R. Sutcliffe, S.-X. Guo, X. Wang, J. Feng. 
-        <a href="./papers/gao_tsmc2021.pdf" target=&ldquo;blank&rdquo;>Word representation learning based on bidirectional GRUs with drop loss for sentiment classification</a>. 
-        <strong>IEEE Transactions on Systems, Man, and Cybernetics: Systems</strong>, 2021, 51(7): 4532-4542.
-    </li>	
-    <li><u>Y. Gao</u>, X. Sun, X. Wang, J. Feng, S.-X. Guo. 
-        <a href="./papers/gao_Journal of Intelligent & Fuzzy Systems_2020.pdf" target=&ldquo;blank&rdquo;>A parallel neural network structure for sentiment classification of MOOCs discussion forums</a>. 
-        <strong>Journal of Intelligent & Fuzzy Systems</strong>, vol. 38, no. 4, pp. 4915-4927, 2020.
-    </li>	
-</ul>
-
-
+<!--publications-->
+<iframe src="./files/publications.html" width="100%" frameborder="0" id="pubFrame" style="display:block; overflow:hidden;"></iframe>
+<script>
+function resizePub() {
+    const fr = document.getElementById('pubFrame');
+    // 等 iframe 里 DOM 加载完再读高度
+    fr.onload = () => {
+        const h = fr.contentDocument.body.scrollHeight;
+        fr.style.height = h + 'px';
+    };
+}
+window.addEventListener('load', resizePub);   // 页面第一次打开
+window.addEventListener('resize', resizePub); // 窗口缩放也重新算
+</script>
+		
 <h2 id="awards">Awards</h2>
 <ul>
     <li>
