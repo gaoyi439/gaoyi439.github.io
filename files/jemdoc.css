@@ -401,3 +401,9 @@ a.academic-link {
 a.academic-link:hover {
 	text-decoration: underline;
 }
+
+.pub-links {
+    margin-left: 12px;        /* 跟标题隔一点 */
+    font-weight: normal;      /* 让链接字体不要继承 h2 的粗体 */
+    font-size: 0.9em;         /* 略小一点更协调 */
+}
