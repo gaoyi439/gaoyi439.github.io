@@ -372,3 +372,32 @@ table.imgtable, table.imgtable td {
     border: none;
     text-align: left;
 }
+
+nav {
+	background-color: #f8f9fa;
+	padding: 10px 0;
+	margin-bottom: 20px;
+}
+nav a {
+	margin-right: 20px;
+	text-decoration: none;
+	color: #527bbd;
+}
+nav a:hover {
+	text-decoration: underline;
+}
+h1, h2, h3 {
+	margin-top: 50px; /* Add space for fixed nav bar */
+}
+.academic-profile {
+	border: 0px;
+	padding: 10px;
+	margin-top: 20px;
+}
+a.academic-link {
+	color: #527bbd;
+	text-decoration: none;
+}
+a.academic-link:hover {
+	text-decoration: underline;
+}
